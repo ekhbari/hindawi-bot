@@ -1,0 +1,17 @@
+{
+  "name": "hindawibot",
+  "version": "1.0.0",
+  "description": "بوت تيليجرام لتحميل كتب هنداوي",
+  "main": "api/bot.js",
+  "scripts": {
+    "start": "node api/bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
